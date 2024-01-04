@@ -454,7 +454,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem; /* var(--gutter-normal) */
+    margin-bottom: 3rem; /* var(--gutter-normal) */
 }
 
 @media(max-width: 500px) {
