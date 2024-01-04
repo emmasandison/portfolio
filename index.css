@@ -493,17 +493,6 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-.project-1-images { /* new */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.project-1-images .work__image-box { /* new */
-    flex: 0 0 48%;
-    margin-bottom: 1.5rem;
-}
-
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
