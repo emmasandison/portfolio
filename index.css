@@ -442,8 +442,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -491,8 +490,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image-box {
-    flex: 0 0 48%;
-    margin-bottom: 1.5rem; /*var(--gutter-normal) */
+    margin-bottom: var(--gutter-normal);
 }
 
 @media(min-width: 901px) {
