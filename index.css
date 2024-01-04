@@ -442,6 +442,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__box {
     display: flex;
+    flex-direction: column; /* change */
     align-items: center;
 }
 
@@ -453,7 +454,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
+    margin-bottom: var(--gutter-normal); /* 25rem */
 }
 
 @media(max-width: 500px) {
